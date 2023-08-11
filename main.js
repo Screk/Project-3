@@ -71,6 +71,7 @@ const empresasEnLasQueHeTrabajado = [
     descripcion:'Game es una cadena de tiendas de videojuegos, accesorios, consolas... y demas productoas gaming.',
     fechas:'Desde marzo 2022 hasta actual',
     responsabilidades:'Desarrollador frontend',
+    link:'https://www.game.es/'
   }
 ]
 
