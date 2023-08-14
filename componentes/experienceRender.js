@@ -1,4 +1,4 @@
-import { empresasEnLasQueHeTrabajado } from "./constantes";
+import { empresasEnLasQueHeTrabajado } from "./constantes.js";
 
 export const renderExperience = () => {
     const main = document.querySelector('#main');

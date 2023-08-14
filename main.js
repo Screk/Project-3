@@ -1,4 +1,4 @@
-import { renderExperience } from "./componentes/experienceRender.js"
+import { renderExperience } from "./componentes/experienceRender.js";
 import { renderHome } from "./componentes/homeRender.js";
 import { renderProjects } from "./componentes/projectsRender.js";
 
@@ -11,7 +11,6 @@ const añadeEventListenerAlBotonHamburguesa = () => {
   });
 };
 añadeEventListenerAlBotonHamburguesa();
-
 
 const añadeEventListenerALosLinks = () => {
   const links = document.querySelectorAll("#menu");
@@ -28,11 +27,11 @@ añadeEventListenerALosLinks();
 
 renderHome();
 
-const homeLink = document.querySelector('#pagina-principal');
-homeLink.addEventListener('click', renderHome)
+const homeLink = document.querySelector("#pagina-principal");
+homeLink.addEventListener("click", renderHome);
 
-const proyectosLink = document.querySelector('#proyectos');
-proyectosLink.addEventListener('click', renderProjects)
+const proyectosLink = document.querySelector("#proyectos");
+proyectosLink.addEventListener("click", renderProjects);
 
-const experienciaLink = document.querySelector('#experiencia');
-experienciaLink.addEventListener('click', renderExperience)
+const experienciaLink = document.querySelector("#experiencia");
+experienciaLink.addEventListener("click", renderExperience);

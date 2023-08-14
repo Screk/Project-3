@@ -1,4 +1,4 @@
-import { proyectosTrabajados } from "./constantes";
+import { proyectosTrabajados } from "./constantes.js";
 
 export const renderProjects = () => {
     const main = document.querySelector('#main');
