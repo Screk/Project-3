@@ -1,7 +1,6 @@
-import { renderExperience } from "./componentes/experienceRender.js";
+import { renderExperience } from "./componentes/experienceRender.js"
 import { renderHome } from "./componentes/homeRender.js";
 import { renderProjects } from "./componentes/projectsRender.js";
-
 
 const añadeEventListenerAlBotonHamburguesa = () => {
   const menu = document.querySelector("#menu");
